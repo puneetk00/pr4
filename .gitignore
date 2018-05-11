@@ -1,0 +1,17 @@
+app/code/core/*
+app/design/install/*
+app/etc/*
+app/locale/*
+app/bootstrap.php
+app/Mage.php
+dev/*
+downloader/*
+errors/*
+includes/*
+js/*
+lib/*
+media/*
+media_back/*
+shell/*
+skin/*
+
