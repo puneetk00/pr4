@@ -1,0 +1,243 @@
+<!-- script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script -->
+<script>
+jQuery(document).ready(function(){ 
+	var url = "<?php echo $this->getBaseUrl() ?>vendor/index/save";
+    jQuery(".form_0:first").show();
+    jQuery(".continue").click(function(){
+	jQuery(".form_vendor").hide();
+	jQuery(this).closest(".form_vendor").next().show();
+	jQuery(".step.active").next().addClass("active");
+    });
+	
+	
+	 jQuery("form").submit(function(evt){	 
+      //evt.preventDefault();
+      var formData = new FormData($(this)[0]);
+	    jQuery.ajax({
+       url: url,
+       type: 'POST',
+       data: formData,
+       async: false,
+       cache: false,
+       contentType: false,
+       enctype: 'multipart/form-data',
+       processData: false,
+       success: function (response) {
+         alert(response);
+       }
+   });
+   return false;
+ });
+ 
+})	;
+</script>
+https://designmodo.com/demo/checkout-panel/
+<form method="POST" action="" enctype="multipart/form-data" >
+<div class="vendorregistration">
+<div class="from_process progress-bar">
+<div class="step active"></div>
+<div class="step"></div>
+<div class="step"></div>
+<!-- div class="step">Listings Details</div -->
+</div>
+<div class="form_vendor form_0">
+<h3>Business Details</h3>
+<p>Please setup your pickup location</p>
+<p>Our logistics partner will pick your package from this location</p>
+<p>First let's check it our services available at your.</p>
+<div class="field_form">
+<label>Pincode<em>*</em></label>
+<input type="text" name="pincode_0">
+</div>
+<div class="field_form">
+<label>Address<em>*</em></label>
+<input type="text" name="address_0">
+</div>
+<div class="field_form">
+<label>City<em>*</em></label>
+<input type="text" name="city">
+</div>
+<div class="field_form">
+<label>State<em>*</em></label>
+<input type="text" name="state">
+</div>
+<div class="field_form">
+<label>Company Name</label>
+<input type="text" name="company_name">
+</div>
+<div class="field_form">
+<label>GST no.<em>*</em></label>
+<input type="text" name="gst_no">
+</div>
+<div class="field_form">
+<label>TAN no.<em>*</em></label>
+<input type="text" name="tan_no">
+</div>
+<div class="field_form">
+<label>TIN no.<em>*</em></label>
+<input type="text" name="tin_no">
+</div>
+<div class="field_form">
+<label>Digital Signature<em>*</em></label>
+<input type="file" name="digital_signature">
+<span>Note: your image of signature should be same which is authorities for tax</span>
+</div>
+<div class="field_form">
+<label>Address.<em>*</em></label>
+<input type="text" name="address_1">
+</div>
+<div class="field_form">
+<label>Pincode.<em>*</em></label>
+<input type="text" name="pincode_1">
+</div>
+<div class="field_form">
+<label>City State.<em>*</em></label>
+<input type="text" name="city_state">
+</div>
+<div class="field_form">
+<label>State State.<em>*</em></label>
+<input type="text" name="state_state">
+</div>
+<button class="continue">Continue</button>
+</div>
+<div class="form_vendor form_1">
+<h3>Bank Details</h3>
+<div class="field_form">
+<label>Account Holder Name.</label>
+<input type="text" name="account_holder_name">
+</div>
+<div class="field_form">
+<label>Account Number.<em>*</em></label>
+<input type="text" name="account_number">
+</div>
+<div class="field_form">
+<label>Retype Account Number.<em>*</em></label>
+<input type="text" name="retype_account_number">
+</div>
+<div class="field_form">
+<label>IFSC Code.<em>*</em></label>
+<input type="text" name="ifsc_code">
+</div>
+<div class="field_form">
+<label>Bank Name.<em>*</em></label>
+<input type="text" name="bank_name">
+</div>
+<div class="kyc"></div>
+<div class="field_form">
+<label>Business type.<em>*</em></label>
+<input type="text" name="business_type">
+</div>
+<div class="field_form">
+<label>Persnal Pan.<em>*</em></label>
+<input type="text" name="persnal_pan">
+</div>
+<div class="field_form">
+<label>Address proof.<em>*</em></label>
+<input type="text" name="address_proof">
+</div>
+<div class="field_form">
+<label>Canceled Cheque.<em>*</em></label>
+<input type="file" name="canceled_cheque">
+</div>
+<div class="field_form">
+<label>Business Pan.<em>*</em></label>
+<input type="text" name="business_pan">
+</div>
+<div class="field_form">
+<input type="checkbox" name="term">
+<span>I have read all term & Condition of seller plutokart</span>
+</div>
+<button class="continue">Continue</button>
+</div>
+<div class="form_vendor form_2">
+<h3>Store Details</h3>
+<div class="field_form">
+<label>Display Name.</label>
+<input type="text" name="display_name">
+</div>
+<div class="field_form">
+<label>Business Description.<em>*</em></label>
+<textarea type="text" name="business_description"></textarea>
+<span>Note : This Display name will be visible to buyers on plutokart.</span>
+</div>
+<button class="ajax_form_submit" onclick="this.form.submit();" >Continue</button>
+</div>
+</div>
+</form>
+<style>
+.vendorregistration { width:1000px; margin: auto; }
+.vendorregistration .from_process, .vendorregistration .form_vendor { width:100%; padding: 24px 24px 2px 24px; }
+.vendorregistration .form_vendor {min-height:700px; border:1px solid #000; padding:10px; display:none; }
+.vendorregistration .form_vendor:first{display:block;}
+.step {
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1;
+    display: block;
+    width: 25px;
+    height: 25px;
+    margin-bottom: 30px;
+    border: 4px solid #fff;
+    border-radius: 50%;
+    background-color: #efefef;
+    margin-right: 31px;
+}
+.step:nth-child(1):before {
+    content: 'Business Details';
+    width: 110px;
+    margin-top: -15px;
+    margin-left: -16px;
+}
+.step:nth-child(2):before {content: 'Bank Details'; width: 110px;
+    margin-top: -15px;
+    margin-left: -48px; } 
+.step:nth-child(3):before {content: 'Store Details'; width: 110px;
+    margin-top: -15px;
+    margin-left: -58px; } 
+.step.active:before {color: #f62f5e; } 
+.step:before {color: #2e2e2e;position: absolute;top: 40px; }  
+.step:after {
+    position: absolute;
+    z-index: -1;
+    top: 4px;
+    left: 22px;
+    width: 445px;
+    height: 10px;
+    content: '';
+    background-color: #efefef;
+}
+.step:last-child:after {
+    background: green;
+    width: 0;
+    padding: 0;
+    margin-right: 0;
+    height: 0;
+}
+.step.active:after {background-color: #f62f5e; } 
+.progress-bar {display: flex;margin-bottom: 50px;justify-content: space-between; } 
+.step.active {background-color: #f62f5e; }
+.form_vendor label {
+    width: 158px;
+}
+.form_vendor .field_form {
+    margin: 16px 10px;
+}
+
+.form_vendor input[type="text"] {
+    width: 32%;
+    height: 30px;
+}
+.form_vendor label em {
+    color: #ff0000;
+}
+
+.form_vendor button.continue {
+    background: #444444;
+    padding: 10px 50px;
+    font-size: 16px;
+    color: #fff;
+}
+.form_vendor button:hover {
+    background: #00bcd4;
+}
+</style>

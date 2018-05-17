@@ -1,0 +1,56 @@
+<?php
+/*------------------------------------------------------------------------
+ # SM Cart Pro - Version 2.0.0
+ # Copyright (c) 2015 YouTech Company. All Rights Reserved.
+ # @license - Copyrighted Commercial Software
+ # Author: YouTech Company
+ # Websites: http://www.magentech.com
+-------------------------------------------------------------------------*/
+$helper = Mage::helper('cartpro/data');
+if (!$helper->_getConfig('enable'))
+	return;
+	
+$_cartQty = $this->getSummaryCount();
+if(empty($_cartQty)) 
+	$_cartQty = 0;
+
+?>
+<div id="sm_cartpro" class="block mini-cartpro sm-cartpro">
+	<div class="block-title cartpro-title <?php if($_cartQty <= 0): ?> cartpro-empty<?php endif; ?> ">
+		<div class="btn-toggle show-cart-button">
+			
+			
+			<?php if(Mage::getStoreConfig('market_cfg/general/header_styles') == 'header4'){?>
+				<div class="detail-minicart-v4">
+					<p><?php echo $this->__('My Cart')." - ";?></p>
+					<span class="count-item have-qty">
+						<span class="count-item cartpro-count txt-item"><?php echo $_cartQty; ?></span><span class="txt-item"><?php if($_cartQty > 1){ echo ' items';}else{echo ' item';}?></span>
+					</span>
+				</div>
+			<?php } else if(Mage::getStoreConfig('market_cfg/general/header_styles') == 'header5'){?>
+
+				<div class="detail-minicart-v5">
+					<div class="minicart-title">
+						<span><?php echo $this->__('My Cart:');?></span> (<span class="count-item cartpro-count txt-item"><?php echo $_cartQty?></span>)
+					</div>
+				</div>
+			<?php } else { ?>
+				<div class="detail-minicart">
+					<p><?php echo $this->__('Shopping Cart');?></p>
+					<span class="count-item cartpro-count txt-item"><?php echo $_cartQty; ?></span><span class="txt-item"><?php if($_cartQty > 1){ echo ' items - ';}else{echo ' item - ';}?></span>
+					<span class="total-price"><?php echo Mage::helper('checkout')->formatPrice($this->getSubtotal()) ?></span>
+				</div>
+			<?php } ?>
+			
+		</div>
+		
+		<!--
+		<span class="cartpro-icon"></span>
+		<span class="cartpro-label"><?php echo $this->__('Cart'); ?></span>
+		<span class="cartpro-count"><?php echo $_cartQty; ?></span>
+		-->
+	</div>
+	<div class="cartpro-content block-content">
+		<?php echo $this->getChildHtml('mini_cartpro_content'); ?>
+	</div>
+</div>

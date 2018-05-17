@@ -1,0 +1,1313 @@
+<?xml version="1.0"?>
+<root>
+	<blocks>
+		<cms_block>
+			<title>Market Payment</title>
+			<identifier>block-payment</identifier>
+			<content>
+				<![CDATA[<div class="block-payment"><a class="payment1" href="#">payment1</a> <a class="payment2" href="#">payment2</a> <a class="payment3" href="#">payment3</a> <a class="payment4" href="#">payment4</a><a class="payment5" href="#">payment5</a><a class="payment6" href="#">payment6</a></div>]]>
+			</content>
+			<is_active>1</is_active>
+			<store_id>0</store_id>
+		</cms_block>
+		<cms_block>
+			<title>Market Footer links</title>
+			<identifier>footer-links</identifier>
+			<content>
+				<![CDATA[<div class="footer-links-w">
+<div class="label-link">Top Stores : Brand Directory | Store Directory</div>
+<ul>
+<li>
+<h2>MOST SEARCHED KEYWORDS MARKET:</h2>
+<a href="#">Xiaomi Mi3</a> | <a href="#">Digiflip Pro XT 712 Tablet</a> | <a href="#">Mi 3 Phones</a> | <a href="#">View all</a></li>
+<li>
+<h2>MOBILES:</h2>
+<a href="#">Moto E</a> | <a href="#">Samsung Mobile</a> | <a href="#">Micromax Mobile</a> | <a href="#">Nokia Mobile</a> | <a href="#">HTC Mobile</a> | <a href="#">Sony Mobile</a> | <a href="#">Apple Mobile</a> | <a href="#">LG Mobile</a> | <a href="#">Karbonn Mobile</a> | <a href="#">View all</a></li>
+<li>
+<h2>CAMERA:</h2>
+<a href="#">Nikon Camera</a> | <a href="#">Canon Camera</a> | <a href="#">Sony Camera</a> | <a href="#">Samsung Camera</a> | <a href="#">Point shoot camera</a> | <a href="#">Camera Lens</a> | <a href="#">Camera Tripod</a> | <a href="#">Camera Bag</a> | <a href="#">View all</a></li>
+<li>
+<h2>LAPTOPS:</h2>
+<a href="#">Apple Laptop</a> | <a href="#">Acer Laptop</a> | <a href="#">Samsung Laptop</a> | <a href="#">Lenovo Laptop</a> | <a href="#">Sony Laptop</a> | <a href="#">Dell Laptop</a> | <a href="#">Asus Laptop</a> | <a href="#">Toshiba Laptop</a> | <a href="#">LG Laptop</a> | <a href="#">HP Laptop</a> | <a href="#">Notebook</a> | <a href="#">View all</a></li>
+<li>
+<h2>TVS:</h2>
+<a href="#">Sony TV</a> | <a href="#">Samsung TV</a> | <a href="#">LG TV</a> | <a href="#">Panasonic TV</a> | <a href="#">Onida TV</a> | <a href="#">Toshiba TV</a> | <a href="#">Philips TV</a> | <a href="#">Micromax TV</a> | <a href="#">LED TV</a> | <a href="#">LCD TV</a> | <a href="#">Plasma TV</a> | <a href="#">3D TV</a> | <a href="#">Smart TV</a> | <a href="#">View all</a></li>
+<li>
+<h2>TABLETS:</h2>
+<a href="#">Micromax Tablets</a> | <a href="#">HCL Tablets</a> | <a href="#">Samsung Tablets</a> | <a href="#">Lenovo Tablets</a> | <a href="#">Karbonn Tablets</a> | <a href="#">Asus Tablets</a> | <a href="#">Apple Tablets</a> | <a href="#">View all</a></li>
+<li>
+<h2>WATCHES:</h2>
+<a href="#">FCUK Watches</a> | <a href="#">Titan Watches</a> | <a href="#">Casio Watches</a> | <a href="#">Fastrack Watches</a> | <a href="#">Timex Watches</a> | <a href="#">Fossil Watches</a> | <a href="#">Diesel Watches</a> | <a href="#">Luxury Watches</a> | <a href="#">View all</a></li>
+<li>
+<h2>CLOTHING:</h2>
+<a href="#">Shirts</a> | <a href="#">Jeans</a> | <a href="#">T shirts</a> | <a href="#">Kurtis</a> | <a href="#">Sarees</a> | <a href="#">Levis Jeans</a> | <a href="#">Killer Jeans</a> | <a href="#">Pepe Jeans</a> | <a href="#">Arrow Shirts</a> | <a href="#">Ethnic Wear</a> | <a href="#">Formal Shirts</a> | <a href="#">Peter England Shirts</a> | <a href="#">View all</a></li>
+<li>
+<h2>FOOTWEAR:</h2>
+<a href="#">Shoes</a> | <a href="#">Casual Shoes</a> | <a href="#">Sports Shoes</a> | <a href="#">Formal Shoes</a> | <a href="#">Adidas Shoes</a> | <a href="#">Gas Shoes</a> | <a href="#">Puma Shoes</a> | <a href="#">Reebok Shoes</a> | <a href="#">Woodland Shoes</a> | <a href="#">Red tape Shoes</a> | <a href="#">Nike Shoes</a> | <a href="#">View all</a></li>
+</ul>
+</div>]]>
+			</content>
+			<is_active>1</is_active>
+			<store_id>0</store_id>
+		</cms_block>
+		<cms_block>
+			<title>Market Spotlight 1 - About Market</title>
+			<identifier>spotlight-1</identifier>
+			<content>
+				<![CDATA[<div class="spotlight spotlight1 col-lg-3 col-md-3 col-sm-6 col-xs-12">
+<div class="block-title">About Market</div>
+<div class="block-content">
+<ul>
+<li><a href="{{store url="about-us"}}">About us</a></li>
+<li><a href="{{store url="blog.html"}}">Blog</a></li>
+<li><a href="#">Terms of Use</a></li>
+<li><a href="#">Privacy Policy</a></li>
+<li><a href="{{store url="catalog/seo_sitemap/category/"}}">Site Map</a></li>
+</ul>
+</div>
+</div>]]>
+			</content>
+			<is_active>1</is_active>
+			<store_id>0</store_id>
+		</cms_block>
+		<cms_block>
+			<title>Market Spotlight 2 - Customer Service</title>
+			<identifier>spotlight-2</identifier>
+			<content>
+				<![CDATA[<div class="spotlight spotlight2 col-lg-3 col-md-3 col-sm-6 col-xs-12">
+<div class="block-title">Customer Service</div>
+<div class="block-content">
+<ul>
+<li><a href="#">Shipping Policy</a></li>
+<li><a href="#">Compensation First</a></li>
+<li><a href="#">My Account</a></li>
+<li><a href="#">Return Policy</a></li>
+<li><a href="{{store url="contacts"}}">Contact Us</a></li>
+</ul>
+</div>
+</div>]]>
+			</content>
+			<is_active>1</is_active>
+			<store_id>0</store_id>
+		</cms_block>
+		<cms_block>
+			<title>Market Spotlight 3 - Payment &amp; Shipping</title>
+			<identifier>spotlight-3</identifier>
+			<content>
+				<![CDATA[<div class="spotlight spotlight3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
+<div class="block-title">Payment & Shipping</div>
+<div class="block-content">
+<ul>
+<li><a href="#">Terms of Use</a></li>
+<li><a href="#">Payment Methods</a></li>
+<li><a href="#">Shipping Guide</a></li>
+<li><a href="#">Locations We Ship To</a></li>
+<li><a href="#">Estimated Delivery Time</a></li>
+</ul>
+</div>
+</div>]]>
+			</content>
+			<is_active>1</is_active>
+			<store_id>0</store_id>
+		</cms_block>
+		<cms_block>
+			<title>Market Spotlight 4 - Contact us</title>
+			<identifier>spotlight-4</identifier>
+			<content>
+				<![CDATA[<div class="spotlight spotlight4 col-lg-3 col-md-3 col-sm-6 col-xs-12">
+<div class="block-title">Contact us</div>
+<ul class="block-content">
+<li class="address"><span class="ico-contactus">icon</span>
+<div class="inner">Address : No 40 Baria Sreet 133/2 NewYork City, NY, United States.</div>
+</li>
+<li class="email"><span class="ico-contactus">icon</span>
+<div class="inner">Email : <a href="mailto:contact@market.com">contact@market.com</a></div>
+</li>
+<li class="phone"><span class="ico-contactus">icon</span>
+<div class="inner">Phone 1 : 0123456789<br /> Phone 2 : 0123456789</div>
+</li>
+</ul>
+</div>]]>
+			</content>
+			<is_active>1</is_active>
+			<store_id>0</store_id>
+		</cms_block>
+		<cms_block>
+			<title>Market Block Policy</title>
+			<identifier>block-policy</identifier>
+			<content>
+				<![CDATA[<div class="banner-policy">
+<div class="inner">
+<div class="policy policy1"><a href="#"><span class="ico-policy">ico policy</span>90 days<br />money back</a></div>
+<div class="policy policy2"><a href="#"><span class="ico-policy">ico policy</span>free shipping<br />on all orders</a></div>
+<div class="policy policy3"><a href="#"><span class="ico-policy">ico policy</span>lowest price guarantee</a></div>
+<div class="policy policy4"><a href="#"><span class="ico-policy">ico policy</span>safe shopping guarantee</a></div>
+</div>
+</div>]]>
+			</content>
+			<is_active>1</is_active>
+			<store_id>0</store_id>
+		</cms_block>
+		<cms_block>
+			<title>Market Banner header right</title>
+			<identifier>banner-header-right</identifier>
+			<content>
+				<![CDATA[<div class="banner-right-home">
+<div class="banner-righthome righthome1"><a href="#"><img src="{{media url="wysiwyg/banner/banner1-1.jpg"}}" alt="" /></a></div>
+<div class="banner-righthome righthome2"><a href="#"><img src="{{media url="wysiwyg/banner/banner1-2.jpg"}}" alt="" /></a></div>
+<div class="banner-righthome righthome3"><a href="#"><img src="{{media url="wysiwyg/banner/banner1-3.jpg"}}" alt="" /></a></div>
+</div>]]>
+			</content>
+			<is_active>1</is_active>
+			<store_id>0</store_id>
+		</cms_block>
+		<cms_block>
+			<title>Market Banner home position 1</title>
+			<identifier>banner-home</identifier>
+			<content>
+				<![CDATA[<div class="banner-home">
+<div class="banner2 banner2-1 col-lg-4 col-md-4 col-sm-6 col-xs-12"><a href="#"><img src="{{media url="wysiwyg/banner/banner2-1.png"}}" alt="" /></a></div>
+<div class="banner2 banner2-2 col-lg-4 col-md-4 col-sm-6 col-xs-12"><a class="row1" href="#"><img src="{{media url="wysiwyg/banner/banner2-2.png"}}" alt="" /></a> <a href="#"><img src="{{media url="wysiwyg/banner/banner2-3.png"}}" alt="" /></a></div>
+<div class="banner2 banner2-3 col-lg-4 col-md-4 col-sm-6 col-xs-12"><a href="#"><img src="{{media url="wysiwyg/banner/banner2-4.png"}}" alt="" /></a></div>
+</div>]]>
+			</content>
+			<is_active>1</is_active>
+			<store_id>0</store_id>
+		</cms_block>
+		<cms_block>
+			<title>Market Collections</title>
+			<identifier>block-collections</identifier>
+			<content>
+				<![CDATA[<div class="collections-wrap">
+<div class="block-title"><span>Collections</span></div>
+<ul class="collections">
+<li class="collect collect1"><a href="#">Furniture</a></li>
+<li class="collect collect2"><a href="#">Gift idea</a></li>
+<li class="collect collect3"><a href="#">Cool gadgets</a></li>
+<li class="collect collect4"><a href="#">Ourdoor<br /><span>activities</span></a></li>
+<li class="collect collect5"><a href="#">Accessories for<br /><span>smartphone</span></a></li>
+<li class="collect collect6"><a href="#">Women world</a></li>
+</ul>
+</div>]]>
+			</content>
+			<is_active>1</is_active>
+			<store_id>0</store_id>
+		</cms_block>
+		<cms_block>
+			<title>Market Custom Block in detail page</title>
+			<identifier>custom-block-detail</identifier>
+			<content>
+				<![CDATA[<div class="policy-detail">
+<div class="banner-policy">
+<div class="policy policy1"><a href="#"><span class="ico-policy">ico policy</span>90 day<br />money back</a></div>
+<div class="policy policy2"><a href="#"><span class="ico-policy">ico policy</span>free shipping<br />on all orders</a></div>
+<div class="policy policy3"><a href="#"><span class="ico-policy">ico policy</span>lowest price guarantee</a></div>
+<div class="policy policy4"><a href="#"><span class="ico-policy">ico policy</span>safe shopping guarantee</a></div>
+</div>
+</div>]]>
+			</content>
+			<is_active>1</is_active>
+			<store_id>0</store_id>
+		</cms_block>
+		<cms_block>
+			<title>Market Location popup content</title>
+			<identifier>location-popup-cont</identifier>
+			<content>
+				<![CDATA[<div id="location-popup">
+<div class="inner">
+<div class="col1"><img src="{{media url="wysiwyg/location1.png"}}" alt="" />
+<div class="col1-content">
+<div class="col1-cont"><span>OUR STORE</span>
+<ul>
+<li><a href="{{store url="?___store=english&amp;___from_store=australia"}}">England</a></li>
+<li><a href="{{store url="?___store=french&amp;___from_store=english"}}">France</a></li>
+<li><a href="{{store url="?___store=australia&amp;___from_store=english"}}">Australia</a></li>
+<li><a href="{{store url="?___store=canada&amp;___from_store=english"}}">Cannada</a></li>
+<li><a href="{{store url="?___store=italia&amp;___from_store=english"}}">Italia</a></li>
+<li><a href="{{store url="?___store=german&amp;___from_store=english"}}">German</a></li>
+</ul>
+</div>
+<div class="col1-cont"><span>EUROPE</span>
+<ul>
+<li><a href="#">Belarus</a></li>
+<li><a href="#">Bosnia</a></li>
+<li><a href="#">Bulgaria</a></li>
+<li><a href="#">Croatia</a></li>
+<li><a href="#">Czech republic</a></li>
+<li><a href="#">Denmark</a></li>
+</ul>
+</div>
+<div class="col1-cont"><span>AFRICA</span>
+<ul>
+<li><a href="#">Algeria</a></li>
+<li><a href="#">Egypt</a></li>
+<li><a href="#">Kenya</a></li>
+<li><a href="#">Morocco</a></li>
+<li><a href="#">Nigeria</a></li>
+<li><a href="#">Sudan</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col2"><img src="{{media url="wysiwyg/location2.png"}}" alt="" /></div>
+<div class="subscribe-bottom">
+<div class="inner"><input id="dont-show-again" type="checkbox" name="dontshowitagain" value="dontshowitagain" /><label for="dont-show-again">Don't show this popup again</label></div>
+</div>
+</div>
+</div>]]>
+			</content>
+			<is_active>1</is_active>
+			<store_id>0</store_id>
+		</cms_block>
+		<cms_block>
+			<title>Contact us - Info Store</title>
+			<identifier>info-store</identifier>
+			<content>
+				<![CDATA[<div class="col-md-3 col-sm-6 store-info">
+<ul class="list-info">
+<li class="item-info main-info">
+<div class="info-content">
+<h2><a title="Main office" href="#">Main office</a></h2>
+<div class="des-info">Sed ut perspiciatis unde omnis 123456 Street Name, Los Angeles</div>
+</div>
+</li>
+<li class="item-info email-info">
+<div class="info-content">
+<h2>Email</h2>
+<div class="des-info"><a class="mailto" title="Send Email" href="mailto:Support1@shopname.com">Support1@shopname.com</a><br /> <a class="mailto" title="Send Email" href="mailto:Support2@shopname.com">Support2@shopname.com</a></div>
+</div>
+</li>
+<li class="item-info phone-info">
+<div class="info-content">
+<h2>Phone</h2>
+<div class="des-info"><a class="call-phone" title="Call: 0123-4567-8910" href="tel:0123-4567-8910">0123-4567-8910</a><br /> <a class="call-phone" title="Call: 0123-4567-8910" href="tel:0123-4567-8910">0123-4567-8910</a></div>
+</div>
+</li>
+</ul>
+</div>
+<div class="col-md-3 col-sm-6 store-info">
+<ul class="list-info">
+<li class="item-info main-info">
+<div class="info-content">
+<h2><a title="Branch 01" href="#">Branch 01</a></h2>
+<div class="des-info">Sed ut perspiciatis unde omnis 123456 Street Name, Los Angeles</div>
+</div>
+</li>
+<li class="item-info email-info">
+<div class="info-content">
+<h2>Email</h2>
+<div class="des-info"><a class="mailto" title="Send Email" href="mailto:Support1@shopname.com">Support1@shopname.com</a><br /> <a class="mailto" title="Send Email" href="mailto:Support2@shopname.com">Support2@shopname.com</a></div>
+</div>
+</li>
+<li class="item-info phone-info">
+<div class="info-content">
+<h2>Phone</h2>
+<div class="des-info"><a class="call-phone" title="Call: 0123-4567-8910" href="tel:0123-4567-8910">0123-4567-8910</a><br /> <a class="call-phone" title="Call: 0123-4567-8910" href="tel:0123-4567-8910">0123-4567-8910</a></div>
+</div>
+</li>
+</ul>
+</div>
+<div class="col-md-3 col-sm-6 store-info">
+<ul class="list-info">
+<li class="item-info main-info">
+<div class="info-content">
+<h2><a title="Branch 02" href="#">Branch 02</a></h2>
+<div class="des-info">Sed ut perspiciatis unde omnis 123456 Street Name, Los Angeles</div>
+</div>
+</li>
+<li class="item-info email-info">
+<div class="info-content">
+<h2>Email</h2>
+<div class="des-info"><a class="mailto" title="Send Email" href="mailto:Support1@shopname.com">Support1@shopname.com</a><br /> <a class="mailto" title="Send Email" href="mailto:Support2@shopname.com">Support2@shopname.com</a></div>
+</div>
+</li>
+<li class="item-info phone-info">
+<div class="info-content">
+<h2>Phone</h2>
+<div class="des-info"><a class="call-phone" title="Call: 0123-4567-8910" href="tel:0123-4567-8910">0123-4567-8910</a><br /> <a class="call-phone" title="Call: 0123-4567-8910" href="tel:0123-4567-8910">0123-4567-8910</a></div>
+</div>
+</li>
+</ul>
+</div>
+<div class="col-md-3 col-sm-6 store-info">
+<ul class="list-info">
+<li class="item-info main-info">
+<div class="info-content">
+<h2><a title="Branch 03" href="#">Branch 03</a></h2>
+<div class="des-info">Sed ut perspiciatis unde omnis 123456 Street Name, Los Angeles</div>
+</div>
+</li>
+<li class="item-info email-info">
+<div class="info-content">
+<h2>Email</h2>
+<div class="des-info"><a class="mailto" title="Send Email" href="mailto:Support1@shopname.com">Support1@shopname.com</a><br /> <a class="mailto" title="Send Email" href="mailto:Support2@shopname.com">Support2@shopname.com</a></div>
+</div>
+</li>
+<li class="item-info phone-info">
+<div class="info-content">
+<h2>Phone</h2>
+<div class="des-info"><a class="call-phone" title="Call: 0123-4567-8910" href="tel:0123-4567-8910">0123-4567-8910</a><br /> <a class="call-phone" title="Call: 0123-4567-8910" href="tel:0123-4567-8910">0123-4567-8910</a></div>
+</div>
+</li>
+</ul>
+</div>]]>
+			</content>
+			<is_active>1</is_active>
+			<store_id>0</store_id>
+		</cms_block>
+		<cms_block>
+			<title>Contact us - Google map</title>
+			<identifier>google-map</identifier>
+			<content/>
+			<is_active>1</is_active>
+			<store_id>0</store_id>
+		</cms_block>
+		<cms_block>
+			<title>Market v2 block newsletter</title>
+			<identifier>block-newsletter</identifier>
+			<content/>
+			<is_active>1</is_active>
+			<store_id>0</store_id>
+		</cms_block>
+		<cms_block>
+			<title>Market v2 banner home</title>
+			<identifier>v2-banner-home</identifier>
+			<content>
+				<![CDATA[<div class="v2-banner-home"><a href="#"><img src="{{media url="wysiwyg/banner/v2-banner-home.jpg"}}" alt="" /></a></div>]]>
+			</content>
+			<is_active>1</is_active>
+			<store_id>0</store_id>
+		</cms_block>
+		<cms_block>
+			<title>Market v2 banner home right</title>
+			<identifier>v2-banner-right</identifier>
+			<content>
+				<![CDATA[<div class="v2-banner-home"><a href="#"><img src="{{media url="wysiwyg/banner/v2-banner-right.jpg"}}" alt="" /></a></div>]]>
+			</content>
+			<is_active>1</is_active>
+			<store_id>0</store_id>
+		</cms_block>
+		<cms_block>
+			<title>Market v2 slider client say</title>
+			<identifier>slide-client-say</identifier>
+			<content>
+				<![CDATA[<div class="block-clientsay">
+<div class="block-title"><span>Clients say</span></div>
+<div class="block-content">
+<div id="carousel-generic" class="carousel slide" data-ride="carousel" data-interval="0"><!-- Controls -->
+<div class="carousel-control-wrap"><a class="carousel-control-tab prev" href="#carousel-generic" data-slide="prev"> Previous </a> <a class="carousel-control-tab next" href="#carousel-generic" data-slide="next"> Next </a></div>
+<div class="carousel-inner">
+<div class="item active">
+<div class="client-cont">Aliquam ut tellus dignissim, cursus erat ultricies tellus. Nulla tempus sollicitudin mauris cursus dictum. Etiam id diam diam.</div>
+<div class="client-info"><img src="{{media url="wysiwyg/client-img1.jpg"}}" alt="" />
+<div class="inner"><span>Aliquam Tellus</span>
+<p>Vitae Ornare Mauris</p>
+</div>
+</div>
+</div>
+<div class="item">
+<div class="client-cont">Daze dictum, mauris sed ullamcorper pharetra, sapien dui rutrum velit, sed interdum urna erat dapibus felis. Donec in urna eget.</div>
+<div class="client-info"><img src="{{media url="wysiwyg/client-img2.jpg"}}" alt="" />
+<div class="inner"><span>Nulla tempus</span>
+<p>Cursus Erat Ultricies</p>
+</div>
+</div>
+</div>
+<div class="item">
+<div class="client-cont">At vero eos et accusamus et iusto odio quos dolores et quasmolestia- sexcepturi sint occaecati cupiditate non provident, sunt in culpa.</div>
+<div class="client-info"><img src="{{media url="wysiwyg/client-img1.jpg"}}" alt="" />
+<div class="inner"><span>Aliquam Tellus</span>
+<p>Vitae Ornare Mauris</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>]]>
+			</content>
+			<is_active>1</is_active>
+			<store_id>0</store_id>
+		</cms_block>
+		<cms_block>
+			<title>Market v3 Block call us</title>
+			<identifier>call-us</identifier>
+			<content>
+				<![CDATA[<div class="phone-contact"><img src="{{media url="wysiwyg/ico-phone.png"}}" alt="" />
+<div class="inner-info"><span>Call us now</span>
+<p>Toll free: 123 456 7890</p>
+</div>
+</div>]]>
+			</content>
+			<is_active>1</is_active>
+			<store_id>0</store_id>
+		</cms_block>
+		<cms_block>
+			<title>Market v3 Block policy</title>
+			<identifier>block-policy-v3</identifier>
+			<content>
+				<![CDATA[<div class="block-policy-v3">
+<div class="policy policy1 col-lg-3 col-md-3 col-sm-6 col-xs-12">
+<div class="policy-inner"><span class="ico-policy">ico policy1</span>
+<h2>30 days return</h2>
+<a href="#">money back</a></div>
+</div>
+<div class="policy policy2 col-lg-3 col-md-3 col-sm-6 col-xs-12">
+<div class="policy-inner"><span class="ico-policy">ico policy2</span>
+
+<a href="#"><h2>free shipping</h2>on all orders over $99</a></div>
+</div>
+<div class="policy policy3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
+<div class="policy-inner"><span class="ico-policy">ico policy3</span>
+
+<a href="#"><h2>lowest price</h2>guarantee </a></div>
+</div>
+<div class="policy policy4 col-lg-3 col-md-3 col-sm-6 col-xs-12">
+<div class="policy-inner"><span class="ico-policy">ico policy4</span>
+
+<a href="#"><h2>safe shopping</h2>guarantee </a></div>
+</div>
+</div>]]>
+			</content>
+			<is_active>1</is_active>
+			<store_id>0</store_id>
+		</cms_block>
+		<cms_block>
+			<title>Market v4 - Block call us info</title>
+			<identifier>v4-call-us</identifier>
+			<content>
+				<![CDATA[<div class="v4-call-us">Call us toll free: <span>(123) 456-7890</span></div>
+]]>
+			</content>
+			<is_active>1</is_active>
+			<store_id>0</store_id>
+		</cms_block>
+		<cms_block>
+			<title>Market v3 Banner header right</title>
+			<identifier>v3-banner-header-right</identifier>
+			<content>
+				<![CDATA[<div class="v3-banner-header-right bannerv3-hover"><a href="#"><img src="{{media url="wysiwyg/banner/v3-banner-header.png"}}" alt="" /></a></div>]]>
+			</content>
+			<is_active>1</is_active>
+			<store_id>0</store_id>
+		</cms_block>
+		<cms_block>
+			<title>Market v3 Banner home left</title>
+			<identifier>v3-banner-home-left</identifier>
+			<content>
+				<![CDATA[<div class="v3-banner-home-left bannerv3-hover"><a href="#"><img src="{{media url="wysiwyg/banner/v3-banner-home-left.jpg"}}" alt="" /></a></div>]]>
+			</content>
+			<is_active>1</is_active>
+			<store_id>0</store_id>
+		</cms_block>
+		<cms_block>
+			<title>Market v2 banner header</title>
+			<identifier>v2-banner-header</identifier>
+			<content>
+				<![CDATA[<div class="headev2-banner">
+<div class="v2-banner-right"><a class="v2-banner2" href="#"> <img src="{{media url="wysiwyg/banner/v2-banner2.jpg"}}" alt="" /> </a>
+<div class="v2-banner34"><a class="v2-banner3" href="#"> <img src="{{media url="wysiwyg/banner/v2-banner3.jpg"}}" alt="" /> </a> <a class="v2-banner4" href="#"> <img src="{{media url="wysiwyg/banner/v2-banner4.jpg"}}" alt="" /> </a></div>
+</div>
+<a class="v2-banner1" href="#"> <img src="{{media url="wysiwyg/banner/v2-banner1.jpg"}}" alt="" /> </a>
+</div>]]>
+			</content>
+			<is_active>1</is_active>
+			<store_id>0</store_id>
+		</cms_block>
+		<cms_block>
+			<title>About Us Page</title>
+			<identifier>about-us-page</identifier>
+			<content/>
+			<is_active>1</is_active>
+			<store_id>0</store_id>
+		</cms_block>
+		<cms_block>
+			<title>Image Popup Newsletter</title>
+			<identifier>image-popup-newsletter</identifier>
+			<content>
+				<![CDATA[<a href="#" title="Image Newsletter"><img src="{{media url="wysiwyg/popup-newsletter/image-popup-newsletter.jpg"}}" alt="Newsletter" /></a>]]>
+			</content>
+			<is_active>1</is_active>
+			<store_id>0</store_id>
+		</cms_block>
+		<cms_block>
+			<title>Phone - Header 5</title>
+			<identifier>phone-number</identifier>
+			<content>
+				<![CDATA[<div class="phone-header">
+						<h3>Call Us Now</h3>
+						<p>TOLL FREE: 0123-456-789</p>
+					</div>]]>
+			</content>
+			<is_active>1</is_active>
+			<store_id>0</store_id>
+		</cms_block>
+		<cms_block>
+			<title>Megamenu Column Left Index 5</title>
+			<identifier>megamenu-col-left</identifier>
+			<content>
+				<![CDATA[<div class="left-megamenu-container">
+	<div class="heading-megamenu">
+		<div class="heading-content">
+			<span>All Categories</span>
+		</div>
+	</div>
+	{{block type="megamenu/list" name="megamenu_left" as="megamenu_left" template="sm/megamenu/col-left-menu.phtml"}}
+	
+</div>]]>
+			</content>
+			<is_active>1</is_active>
+			<store_id>0</store_id>
+		</cms_block>
+		<cms_block>
+			<title>Clients Say Slider Index 5</title>
+			<identifier>clientsay-v5</identifier>
+			<content>
+				<![CDATA[<div class="clients-say-container">
+	<div class="title-home">
+		<h2>
+			<span>Clients Say</span>
+		</h2>
+	</div>
+	
+	<div class="clientsay-wrap">
+		<div class="clients-say-content">
+			<div class="clients-say-slider">
+				<div class="item">
+					<div class="item-inner">
+						<div class="image-box-client">
+							<div class="image">
+								<img src="{{media url="wysiwyg/clients/client-1-v5.jpg"}}" alt="Client" />
+							</div>
+						</div>
+						
+						<div class="info-client">
+							<h3>John Doe</h3>
+							<div class="description">Donec sit amet vulputate velit. Aenean tempus nisl ac fermentum tincidunt. Nam aliquet enim quam scelerisque rutrum.</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="item">
+					<div class="item-inner">
+						<div class="image-box-client">
+							<div class="image">
+								<img src="{{media url="wysiwyg/clients/client-1-v5.jpg"}}" alt="Client" />
+							</div>
+						</div>
+						
+						<div class="info-client">
+							<h3>John Doe</h3>
+							<div class="description">Donec sit amet vulputate velit. Aenean tempus nisl ac fermentum tincidunt. Nam aliquet enim quam scelerisque rutrum.</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="item">
+					<div class="item-inner">
+						<div class="image-box-client">
+							<div class="image">
+								<img src="{{media url="wysiwyg/clients/client-1-v5.jpg"}}" alt="Client" />
+							</div>
+						</div>
+						
+						<div class="info-client">
+							<h3>John Doe</h3>
+							<div class="description">Donec sit amet vulputate velit. Aenean tempus nisl ac fermentum tincidunt. Nam aliquet enim quam scelerisque rutrum.</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<script>
+				jQuery(document).ready(function($) {
+					var clients_slider = $(".clients-say-slider");
+					clients_slider.owlCarousel({				
+						singleItem:true,
+						navigation : true
+					});	  
+				});	
+			</script>
+		</div>
+	</div>
+</div>]]>
+			</content>
+			<is_active>1</is_active>
+			<store_id>0</store_id>
+		</cms_block>
+		<cms_block>
+			<title>Collection Index 5</title>
+			<identifier>collection-v5</identifier>
+			<content>
+				<![CDATA[<div class="collection-sidebar">
+	<div class="title-home">
+		<h2>
+			<span>Collection</span>
+		</h2>
+	</div>
+	
+	<div class="collection-content">
+		<ul class="collection-list">
+			<li>
+				<a href="#" title="Furniture">
+					<span class="icon-collection">
+						<img src="{{media url="wysiwyg/collection/icon-1.png"}}" alt="Collection" />
+					</span>
+					<span class="name-collection">Furniture</span>
+				</a>
+			</li>
+			
+			<li>
+				<a href="#" title="Gift Idea">
+					<span class="icon-collection">
+						<img src="{{media url="wysiwyg/collection/icon-2.png"}}" alt="Gift Idea" />
+					</span>
+					<span class="name-collection">Gift Idea</span>
+				</a>
+			</li>
+			
+			<li>
+				<a href="#" title="Cool Gadgets">
+					<span class="icon-collection">
+						<img src="{{media url="wysiwyg/collection/icon-3.png"}}" alt="Cool Gadgets" />
+					</span>
+					<span class="name-collection">Cool Gadgets</span>
+				</a>
+			</li>
+			
+			<li>
+				<a href="#" title="Outdoor Activities">
+					<span class="icon-collection">
+						<img src="{{media url="wysiwyg/collection/icon-4.png"}}" alt="Outdoor Activities" />
+					</span>
+					<span class="name-collection">Outdoor Activities</span>
+				</a>
+			</li>
+			
+			<li>
+				<a href="#" title="Smartphones">
+					<span class="icon-collection">
+						<img src="{{media url="wysiwyg/collection/icon-5.png"}}" alt="Smartphones" />
+					</span>
+					<span class="name-collection">Smartphones</span>
+				</a>
+			</li>
+			
+			<li>
+				<a href="#" title="Womens World">
+					<span class="icon-collection">
+						<img src="{{media url="wysiwyg/collection/icon-6.png"}}" alt="Womens World" />
+					</span>
+					<span class="name-collection">Womens World</span>
+				</a>
+			</li>
+
+		</ul>
+	</div>
+</div>]]>
+			</content>
+			<is_active>1</is_active>
+			<store_id>0</store_id>
+		</cms_block>
+		<cms_block>
+			<title>Facebox Fanbox Index 5</title>
+			<identifier>facebook-fanbox</identifier>
+			<content>
+				<![CDATA[<div class="fb-page" data-href="https://www.facebook.com/MagenTech" data-tabs="timeline" data-width="270" data-height="214" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/MagenTech"><a href="https://www.facebook.com/MagenTech">MagenTech</a></blockquote></div></div>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6&appId=615561541809250";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>]]>
+			</content>
+			<is_active>1</is_active>
+			<store_id>0</store_id>
+		</cms_block>
+		<cms_block>
+			<title>Banner 1 Index 5</title>
+			<identifier>banner-v51</identifier>
+			<content>
+				<![CDATA[<div class="banner-v51 hover-banner">
+				<div class="left-banner">
+					<a href="#" title="Static Image">
+						<img src="{{media url="wysiwyg/banner/banner-v51.jpg"}}" alt="Banner" />
+					</a>
+				</div>
+				
+				<div class="right-banner">
+					<a href="#" title="Static Image">
+						<img src="{{media url="wysiwyg/banner/banner-v52.jpg"}}" alt="Banner" />
+					</a>
+					
+					<a href="#" title="Static Image">
+						<img src="{{media url="wysiwyg/banner/banner-v53.jpg"}}" alt="Banner" />
+					</a>
+				</div>
+			</div>]]>
+			</content>
+			<is_active>1</is_active>
+			<store_id>0</store_id>
+		</cms_block>
+		<cms_block>
+			<title>Banner 2 Index 5</title>
+			<identifier>banner-v52</identifier>
+			<content>
+				<![CDATA[<div class="banner-v52 hover-banner">
+ 	<a href="#" title="Static Image">
+		<img src="{{media url="wysiwyg/banner/banner-v54.jpg"}}" alt="Banner" />
+	</a>
+	
+	<a href="#" title="Static Image">
+		<img src="{{media url="wysiwyg/banner/banner-v55.jpg"}}" alt="Banner" />
+	</a>
+	
+	<a href="#" title="Static Image">
+		<img src="{{media url="wysiwyg/banner/banner-v56.jpg"}}" alt="Banner" />
+	</a>
+</div>]]>
+			</content>
+			<is_active>1</is_active>
+			<store_id>0</store_id>
+		</cms_block>
+		<cms_block>
+			<title>Banner 3 Index 5</title>
+			<identifier>banner-v53</identifier>
+			<content>
+				<![CDATA[<div class="banner-v53 hover-banner">
+ 	<a href="#" title="Static Image">
+		<img src="{{media url="wysiwyg/banner/banner-v57.jpg"}}" alt="Banner" />
+	</a>
+</div>]]>
+			</content>
+			<is_active>1</is_active>
+			<store_id>0</store_id>
+		</cms_block>
+		<cms_block>
+			<title>Services Index 5</title>
+			<identifier>services-v5</identifier>
+			<content>
+				<![CDATA[<div class="services">
+ 	<div class="row">
+		<div class="col-lg-4 col-md-4 col-sm-4 service-item">
+			<a href="#" title="Services">
+				<img src="{{media url="wysiwyg/banner/banner-v58.png"}}" alt="Service" />
+			</a>
+		</div>
+		
+		<div class="col-lg-4 col-md-4 col-sm-4 service-item">
+			<a href="#" title="Services">
+				<img src="{{media url="wysiwyg/banner/banner-v59.png"}}" alt="Service" />
+			</a>
+		</div>
+		
+		<div class="col-lg-4 col-md-4 col-sm-4 service-item">
+			<a href="#" title="Services">
+				<img src="{{media url="wysiwyg/banner/banner-v551.png"}}" alt="Service" />
+			</a>
+		</div>
+	</div>
+</div>]]>
+			</content>
+			<is_active>1</is_active>
+			<store_id>0</store_id>
+		</cms_block>
+		<cms_block>
+			<title>Brand Index 5</title>
+			<identifier>brand-v5</identifier>
+			<content>
+				<![CDATA[<div class="brand-container">
+	<div class="title-home">
+		<h2>
+			<span>Our Brands</span>
+		</h2>
+	</div>
+	
+	<div class="brands-content">
+		<ul class="brand-list">
+			<li>
+				<a href="#" title="Brand">
+					<img src="{{media url="wysiwyg/brand/brand-1.jpg"}}" alt="Brand" />
+				</a>
+			</li>
+			
+			<li>
+				<a href="#" title="Brand">
+					<img src="{{media url="wysiwyg/brand/brand-2.jpg"}}" alt="Brand" />
+				</a>
+			</li>
+			
+			<li>
+				<a href="#" title="Brand">
+					<img src="{{media url="wysiwyg/brand/brand-3.jpg"}}" alt="Brand" />
+				</a>
+			</li>
+			
+			<li>
+				<a href="#" title="Brand">
+					<img src="{{media url="wysiwyg/brand/brand-4.jpg"}}" alt="Brand" />
+				</a>
+			</li>
+			
+			<li>
+				<a href="#" title="Brand">
+					<img src="{{media url="wysiwyg/brand/brand-5.jpg"}}" alt="Brand" />
+				</a>
+			</li>
+			
+			<li>
+				<a href="#" title="Brand">
+					<img src="{{media url="wysiwyg/brand/brand-6.jpg"}}" alt="Brand" />
+				</a>
+			</li>
+			
+			<li>
+				<a href="#" title="Brand">
+					<img src="{{media url="wysiwyg/brand/brand-7.jpg"}}" alt="Brand" />
+				</a>
+			</li>
+			
+			<li>
+				<a href="#" title="Brand">
+					<img src="{{media url="wysiwyg/brand/brand-8.jpg"}}" alt="Brand" />
+				</a>
+			</li>
+			
+			<li>
+				<a href="#" title="Brand">
+					<img src="{{media url="wysiwyg/brand/brand-9.jpg"}}" alt="Brand" />
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>]]>
+			</content>
+			<is_active>1</is_active>
+			<store_id>0</store_id>
+		</cms_block>
+		<cms_block>
+			<title>Feature Product Index 5</title>
+			<identifier>product-index-v5</identifier>
+			<content>
+				<![CDATA[{{block type="basicproducts/list" name="featured_products" template="sm/basicproducts/default_v5.phtml" basicproducts_title_text="Featured Products" product_order_by="most_viewed" product_limitation="3"}}]]>
+			</content>
+			<is_active>1</is_active>
+			<store_id>0</store_id>
+		</cms_block>
+		<cms_block>
+			<title>Banner 1 Index 6</title>
+			<identifier>banner-v61</identifier>
+			<content>
+				<![CDATA[<div class="banner-v61 hover-banner">
+		<div class="left-banner">
+			<a href="#" title="Banner">
+				<img src="{{media url="wysiwyg/banner/banner61.jpg"}}" alt="Banner" />
+			</a>
+		</div>
+		
+		<div class="right-banner">
+			<a href="#" title="Banner">
+				<img src="{{media url="wysiwyg/banner/banner62.jpg"}}" alt="Banner" />
+			</a>
+			
+			<a href="#" title="Banner">
+				<img src="{{media url="wysiwyg/banner/banner63.jpg"}}" alt="Banner" />
+			</a>
+		</div>
+	</div>]]>
+			</content>
+			<is_active>1</is_active>
+			<store_id>0</store_id>
+		</cms_block>
+		<cms_block>
+			<title>Image Tab 1 Index 6</title>
+			<identifier>image-tab1</identifier>
+			<content>
+				<![CDATA[<a href="#" title="Banner">
+		<img src="{{media url="wysiwyg/banner/tab-image-1.jpg"}}" alt="Banner" />
+</a>]]>
+			</content>
+			<is_active>1</is_active>
+			<store_id>0</store_id>
+		</cms_block>
+		<cms_block>
+			<title>Image Tab 2 Index 6</title>
+			<identifier>image-tab2</identifier>
+			<content>
+				<![CDATA[<a href="#" title="Banner">
+		<img src="{{media url="wysiwyg/banner/tab-image-2.jpg"}}" alt="Banner" />
+</a>]]>
+			</content>
+			<is_active>1</is_active>
+			<store_id>0</store_id>
+		</cms_block>
+		<cms_block>
+			<title>Brand Slider Index 6</title>
+			<identifier>brand-slider-v6</identifier>
+			<content>
+				<![CDATA[	<div class="slider-brand-container">
+		<div class="slider-content">
+			<div class="slider-brands">
+				<div class="item"><a href="#" title="Brand"><img src="{{media url="wysiwyg/brand-v6/brand-1.jpg"}}" alt="Brand" /></a></div>
+				<div class="item"><a href="#" title="Brand"><img src="{{media url="wysiwyg/brand-v6/brand-2.jpg"}}" alt="Brand" /></a></div>
+				<div class="item"><a href="#" title="Brand"><img src="{{media url="wysiwyg/brand-v6/brand-3.jpg"}}" alt="Brand" /></a></div>
+				<div class="item"><a href="#" title="Brand"><img src="{{media url="wysiwyg/brand-v6/brand-4.jpg"}}" alt="Brand" /></a></div>
+				<div class="item"><a href="#" title="Brand"><img src="{{media url="wysiwyg/brand-v6/brand-5.jpg"}}" alt="Brand" /></a></div>
+				<div class="item"><a href="#" title="Brand"><img src="{{media url="wysiwyg/brand-v6/brand-6.jpg"}}" alt="Brand" /></a></div>
+				<div class="item"><a href="#" title="Brand"><img src="{{media url="wysiwyg/brand-v6/brand-1.jpg"}}" alt="Brand" /></a></div>
+				<div class="item"><a href="#" title="Brand"><img src="{{media url="wysiwyg/brand-v6/brand-2.jpg"}}" alt="Brand" /></a></div>
+				<div class="item"><a href="#" title="Brand"><img src="{{media url="wysiwyg/brand-v6/brand-3.jpg"}}" alt="Brand" /></a></div>
+			</div>
+		</div>
+		
+			<script>
+				jQuery(document).ready(function($) {
+					var brands_slider = $(".slider-brands");
+					brands_slider.owlCarousel({				
+						      itemsCustom : [
+								[0, 2],
+								[480, 3],
+								[768, 4],
+								[992, 5],
+								[1200, 6],
+							  ],
+						navigation : true
+					});	  
+				});	
+			</script>
+	</div>]]>
+			</content>
+			<is_active>1</is_active>
+			<store_id>0</store_id>
+		</cms_block>
+		<cms_block>
+			<title>Hot Product Index 6</title>
+			<identifier>product-index-v6</identifier>
+			<content>
+				<![CDATA[{{block type="basicproducts/list" name="featured_products" template="sm/basicproducts/default_v6.phtml" basicproducts_title_text="Hot Products" product_order_by="most_viewed" product_limitation="6" nb_column1="3" nb_column2="2" product_addcart_display="1" product_addwishlist_display="1" product_addcompare_display="1" imgcfg_width="120" imgcfg_height="120"}}]]>
+			</content>
+			<is_active>1</is_active>
+			<store_id>0</store_id>
+		</cms_block>
+		<cms_block>
+			<title>Services Index 6</title>
+			<identifier>services-v6</identifier>
+			<content>
+				<![CDATA[	<div class="full-wrapper full-wrapper-sv">
+		<div class="container">
+			<div class="services-v6">
+				<div class="row">
+					<div class="col-lg-3 col-md-3 col-sm-6 item item-1">
+						<div class="item-inner">
+							<a href="#" title="30 DAY RETURN" class="item-inline">
+								<span class="title-sv">30 DAY RETURN</span>
+								<span>moneyback guarantee</span>
+							</a>
+						</div>
+					</div>
+					
+					<div class="col-lg-3 col-md-3 col-sm-6 item item-2">
+						<div class="item-inner">
+							<a href="#" title="FREE SHIPPING" class="item-inline">
+								<span class="title-sv">FREE SHIPPING</span>
+								<span>on all order over $99</span>
+							</a>
+						</div>
+					</div>
+					
+					<div class="col-lg-3 col-md-3 col-sm-6 item item-3">
+						<div class="item-inner">
+							<a href="#" title="LOWEST PRICE" class="item-inline">
+								<span class="title-sv">LOWEST PRICE</span>
+								<span>guarantee</span>
+							</a>
+						</div>
+					</div>
+					
+					<div class="col-lg-3 col-md-3 col-sm-6 item item-4">
+						<div class="item-inner">
+							<a href="#" title="SAFE SHOPPING" class="item-inline">
+								<span class="title-sv">SAFE SHOPPING</span>
+								<span>guarantee</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>]]>
+			</content>
+			<is_active>1</is_active>
+			<store_id>0</store_id>
+		</cms_block>
+		<cms_block>
+			<title>Collection Slider</title>
+			<identifier>collection-slider</identifier>
+			<content>
+				<![CDATA[<div class="collections-wrap">
+<div class="block-title"><span>Collections</span></div>
+	<div class="collections">
+		<div class="collect collect1"><a href="#">Furniture</a></div>
+		<div class="collect collect2"><a href="#">Gift idea</a></div>
+		<div class="collect collect3"><a href="#">Cool gadgets</a></div>
+		<div class="collect collect4"><a href="#">Ourdoor<br /><span>activities</span></a></div>
+		<div class="collect collect5"><a href="#">Accessories for<br /><span>smartphone</span></a></div>
+		<div class="collect collect6"><a href="#">Women world</a></div>
+		
+		<div class="collect collect1"><a href="#">Furniture</a></div>
+		<div class="collect collect2"><a href="#">Gift idea</a></div>
+		<div class="collect collect3"><a href="#">Cool gadgets</a></div>
+		<div class="collect collect4"><a href="#">Ourdoor<br /><span>activities</span></a></div>
+		<div class="collect collect5"><a href="#">Accessories for<br /><span>smartphone</span></a></div>
+		<div class="collect collect6"><a href="#">Women world</a></div>
+	</div>
+	
+			<script>
+				jQuery(document).ready(function($) {
+					var collection = $(".collections");
+					collection.owlCarousel({				
+						      itemsCustom : [
+								[0, 2],
+								[480, 3],
+								[768, 4],
+								[992, 5],
+								[1200, 6],
+							  ],
+						navigation : true
+					});	  
+				});	
+			</script>
+</div>]]>
+			</content>
+			<is_active>1</is_active>
+			<store_id>0</store_id>
+		</cms_block>
+		<cms_block>
+			<title>Banner 1 Index 7</title>
+			<identifier>banner-71</identifier>
+			<content>
+				<![CDATA[<div class="banner-v71 hover-banner">
+				<a href="#" title="Banner">
+					<img src="{{media url="wysiwyg/banner/banner71.jpg"}}" alt="Banner" />
+				</a>
+				
+				<a href="#" title="Banner">
+					<img src="{{media url="wysiwyg/banner/banner72.jpg"}}" alt="Banner" />
+				</a>
+			</div>]]>
+			</content>
+			<is_active>1</is_active>
+			<store_id>0</store_id>
+		</cms_block>
+		<cms_block>
+			<title>Image Tab 1 Index 7</title>
+			<identifier>image-tab3</identifier>
+			<content>
+				<![CDATA[<div class="hover-banner image-tab">
+				<a href="#" title="Banner">
+					<img src="{{media url="wysiwyg/banner/image-tab-71.jpg"}}" alt="Banner" />
+				</a>
+<a href="#" title="Banner">
+					<img src="{{media url="wysiwyg/banner/image-tab-72.jpg"}}" alt="Banner" />
+				</a>
+			</div>]]>
+			</content>
+			<is_active>1</is_active>
+			<store_id>0</store_id>
+		</cms_block>
+		<cms_block>
+			<title>Image Tab 2 Index 7</title>
+			<identifier>image-tab4</identifier>
+			<content>
+				<![CDATA[<div class="hover-banner image-tab">
+				<a href="#" title="Banner">
+					<img src="{{media url="wysiwyg/banner/image-tab-73.jpg"}}" alt="Banner" />
+				</a>
+<a href="#" title="Banner">
+					<img src="{{media url="wysiwyg/banner/image-tab-74.jpg"}}" alt="Banner" />
+				</a>
+			</div>]]>
+			</content>
+			<is_active>1</is_active>
+			<store_id>0</store_id>
+		</cms_block>
+		<cms_block>
+			<title>Services Index 7</title>
+			<identifier>services-v7</identifier>
+			<content>
+				<![CDATA[<div class="services-v7">
+		<div class="row">
+			<div class="item-sv col-lg-4 col-md-4 col-sm-4">
+				<a href="#" title="Service">
+					<img src="{{media url="wysiwyg/banner/sv-71.jpg"}}" alt="Service" />
+				</a>
+			</div>
+			
+			<div class="item-sv col-lg-4 col-md-4 col-sm-4">
+				<a href="#" title="Service">
+					<img src="{{media url="wysiwyg/banner/sv-72.jpg"}}" alt="Service" />
+				</a>
+			</div>
+			
+			<div class="item-sv col-lg-4 col-md-4 col-sm-4">
+				<a href="#" title="Service">
+					<img src="{{media url="wysiwyg/banner/sv-73.jpg"}}" alt="Service" />
+				</a>
+			</div>
+		</div>
+	</div>]]>
+			</content>
+			<is_active>1</is_active>
+			<store_id>0</store_id>
+		</cms_block>
+		<cms_block>
+			<title>Banner Left Index 7</title>
+			<identifier>banner-left-v7</identifier>
+			<content>
+				<![CDATA[<div class="banner-content hover-banner">
+				<a href="#" title="Banner">
+					<img src="{{media url="wysiwyg/banner/banner73.jpg"}}" alt="Banner" />
+				</a>
+				
+				<a href="#" title="Banner">
+					<img src="{{media url="wysiwyg/banner/banner74.jpg"}}" alt="Banner" />
+				</a>
+			</div>]]>
+			</content>
+			<is_active>1</is_active>
+			<store_id>0</store_id>
+		</cms_block>
+		<cms_block>
+			<title>Banner Right Index 7</title>
+			<identifier>banner-right-v7</identifier>
+			<content>
+				<![CDATA[<div class="banner-content hover-banner">
+				<a href="#" title="Banner">
+					<img src="{{media url="wysiwyg/banner/banner75.jpg"}}" alt="Banner" />
+				</a>
+			</div>]]>
+			</content>
+			<is_active>1</is_active>
+			<store_id>0</store_id>
+		</cms_block>
+		<cms_block>
+			<title>Banner 2 Index 8</title>
+			<identifier>banner-v82</identifier>
+			<content>
+				<![CDATA[<div class="banner82 hover-banner">
+		<div class="banner banner-left">
+			<a href="#" title="Banner">
+				<img src="{{media url="wysiwyg/banner/banner81.jpg"}}" alt="Banner" />
+			</a>
+		</div>
+		
+		<div class="banner banner-center">
+			<a href="#" title="Banner">
+				<img src="{{media url="wysiwyg/banner/banner82.jpg"}}" alt="Banner" />
+			</a>
+		</div>
+		
+		<div class="banner banner-right">
+			<a href="#" title="Banner">
+				<img src="{{media url="wysiwyg/banner/banner83.jpg"}}" alt="Banner" />
+			</a>
+			
+			<a href="#" title="Banner">
+				<img src="{{media url="wysiwyg/banner/banner84.jpg"}}" alt="Banner" />
+			</a>
+		</div>
+	</div>]]>
+			</content>
+			<is_active>1</is_active>
+			<store_id>0</store_id>
+		</cms_block>
+		<cms_block>
+			<title>Banner 1 Index 8</title>
+			<identifier>banner-v81</identifier>
+			<content>
+				<![CDATA[<div class="banner-v81 hover-banner">
+						<a href="#" title="Banner">
+							<img src="{{media url="wysiwyg/banner/banner86.jpg"}}" alt="Banner" />
+						</a>
+					</div>]]>
+			</content>
+			<is_active>1</is_active>
+			<store_id>0</store_id>
+		</cms_block>
+		<cms_block>
+			<title>Social Popup Newsletter</title>
+			<identifier>social-popup-newsletter</identifier>
+			<content>
+				<![CDATA[<ul class="social-list">
+									<li><a href="http://www.facebook.com/MagenTech" title="title"><i class="icon-facebook"><span class="hidden">Icon</span></i></a></li>
+									<li><a href="https://twitter.com/magentech" title="title"><i class="icon-twitter"><span class="hidden">Icon</span></i></a></li>
+									<li><a href="https://plus.google.com/u/0/+Smartaddons" title="title"><i class="icon-google-plus"><span class="hidden">Icon</span></i></a></li>
+									<li><a href="#" title="title"><i class="icon-tumblr"><span class="hidden">Icon</span></i></a></li>
+									<li><a href="http://www.pinterest.com/magentech/" title="title"><i class="icon-pinterest"><span class="hidden">Icon</span></i></a></li>
+									<li><a href="#" title="title"><i class="icon-linkedin"><span class="hidden">Icon</span></i></a></li>
+								</ul>]]>
+			</content>
+			<is_active>1</is_active>
+			<store_id>0</store_id>
+		</cms_block>
+		<cms_block>
+			<title>Left Megamenu</title>
+			<identifier>left-megamenu</identifier>
+			<content>
+				<![CDATA[{{block type="megamenu/list" name="megamenu_left_v5" as="megamenu_left_v5" template="sm/megamenu/megamenu.phtml" theme="2"}}
+	
+	<script type="text/javascript">
+		jQuery(document).ready(function($){
+			$i = 0;
+			$('.sm_megamenu_wrapper_vertical_menu .sm_megamenu_menu').append('<div class="more-wrap"><span class="more-view">More Categories</span></div>');
+			$('.sm_megamenu_wrapper_vertical_menu .sm_megamenu_menu > li.sm_megamenu_lv1').each(function(){
+				$i ++; 
+				if($i>13){ 
+					$(this).css('display', 'none');
+				}			
+			});
+
+			$('.sm_megamenu_wrapper_vertical_menu .sm_megamenu_menu .more-wrap > .more-view').click(function(){
+				if($(this).hasClass('open')){
+					$i=0;
+					$('.sm_megamenu_wrapper_vertical_menu .sm_megamenu_menu > li.sm_megamenu_lv1').each(function(){
+						$i ++;
+						if($i>13){
+							$(this).slideUp(200);
+						}
+					});
+					$(this).removeClass('open');
+					$('.more-wrap').removeClass('active-i');
+					$(this).text('More Categories');
+				}else{
+					$i=0;
+					$('.sm_megamenu_wrapper_vertical_menu .sm_megamenu_menu > li.sm_megamenu_lv1').each(function(){
+						$i ++;
+						if($i>13){
+							$(this).slideDown(200);
+						}
+					});
+					$(this).addClass('open');
+					$('.more-wrap').addClass('active-i');
+					$(this).text('Close Menu');
+				}
+			});
+
+			var n = $('.sm_megamenu_wrapper_vertical_menu .sm_megamenu_menu > li.sm_megamenu_lv1').length;
+
+			if(n < 13){
+				$('.sm_megamenu_wrapper_vertical_menu .more-wrap').css('display', 'none');
+			} else{
+				$('.sm_megamenu_wrapper_vertical_menu .more-wrap').css('display', 'block');
+			}
+		})
+	</script>]]>
+			</content>
+			<is_active>1</is_active>
+			<store_id>0</store_id>
+		</cms_block>
+	</blocks>
+</root>
